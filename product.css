@@ -1,0 +1,8 @@
+body.single-product .product .woocommerce-Price-amount{
+    padding: 10px 10px 10px!important;
+    font-size: 23px;
+}
+
+body.single-product .product div.intro-text.section-inner {
+    display: none;
+}

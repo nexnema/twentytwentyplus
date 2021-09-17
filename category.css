@@ -1,0 +1,25 @@
+.archive-header {
+    padding: 0;
+    padding-top: 50px;
+}
+.category .featured-media .section-inner img {
+    max-width: 60rem;
+    box-shadow: 0 0 5px #555;
+}
+.category .featured-media {
+    margin-top: 20px;
+}
+.category .entry-categories {
+    margin-bottom: 1rem;
+}
+.category .entry-categories a {
+    border: none;
+}
+#site-content .post-inner, .woocommerce-account #site-content .post-inner {
+    padding-top: 25px;    
+}
+@media (min-width: 700px){
+    .post-meta-wrapper{
+        margin-top: 1rem;
+    }
+}

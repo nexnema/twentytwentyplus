@@ -1,0 +1,35 @@
+.woocommerce table.shop_table_responsive, .woocommerce-page table.shop_table_responsive {
+    margin: 0;
+}
+.woocommerce table.shop_table_responsive thead tr th, .woocommerce-page table.shop_table_responsive thead tr th {
+    color: #737373;
+}
+.coupon button {
+    margin-right: 8px;
+}
+.woocommerce table.shop_table_responsive .product-quantity input, .woocommerce-page table.shop_table_responsive .product-quantity input {
+    background: #f7f7f7;
+}
+.woocommerce .woocommerce-cart-form {
+    padding: 10px;
+    box-shadow: 0 0 8px #c1c1c1;
+    border: 1px solid #e6e6e6;
+    border-radius: 10px;
+}
+.woocommerce .cart_totals .shop_table {
+    background: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 0 5px #cfcfcf;
+}
+.woocommerce .cart_totals .shop_table td {
+    text-align: left;
+}
+.woocommerce .cart_totals .wc-proceed-to-checkout {
+    margin-top: 15px;
+}
+.cart_totals table tbody, .cart_totals table td, .cart_totals table th, .cart_totals table tr {
+    padding: 1rem 2rem;
+}
+
+
+

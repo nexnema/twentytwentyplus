@@ -1,0 +1,89 @@
+.woocommerce .woocommerce-MyAccount-navigation {
+    border-radius: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-right: 15px;
+}
+.woocommerce-account .woocommerce-MyAccount-navigation li {
+    padding: 5px 8px;
+    margin-bottom: 15px;
+    margin-left: 0;
+    background: #eee;
+    border-bottom: 2px solid #cd2653;
+    border-radius: 3px;
+}
+.woocommerce-Address-title h3 {
+    font-size: 25px;
+}
+.woocommerce-account .woocommerce-MyAccount-navigation li:first-child {
+    padding-top: 5px;
+}
+.woocommerce-account .woocommerce-MyAccount-navigation li a {
+    font-size: 18px;
+    color: #000;
+}
+@media only screen and (min-width: 768px) {
+    .woocommerce-account .woocommerce-MyAccount-navigation li {
+        padding: 5px 8px;
+        margin-bottom: 15px;
+        margin-left: 0;
+        background: #eee;
+        border-bottom: 2px solid #cd2653;
+        border-radius: 3px;
+    }
+    .woocommerce-account .woocommerce-MyAccount-navigation li a {
+        font-size: 18px;
+        color: #000;
+    }
+}
+.woocommerce .woocommerce-MyAccount-content {
+    box-shadow: 0 0 5px #bfbfbf;
+    padding: 20px;
+    border-radius: 10px;
+}
+.woocommerce-form-coupon {
+    display: block;
+}
+.form-row {
+    margin-right: 10px;
+}
+.checkout_coupon p {
+    display: inline-block;
+}
+.checkout_coupon p:nth-child(1) {
+    display: none;
+}
+.woocommerce-error {
+    border-radius: 10px;
+}
+.input-text {
+    border-radius: 10px;
+}
+.woocommerce-info {
+    border-radius: 3px;
+    margin-bottom: 2rem;
+}
+.woocommerce-cart-form .actions .button {
+    border: none;
+    background: #f2f2f2;
+}
+.woocommerce-cart-form .actions button[name=update_cart] {
+    background: #f2f2f2;
+}
+
+.woocommerce-checkout form[name=checkout] {
+  display: block;
+}
+@media only screen and (max-width: 768px) {
+  .woocommerce-checkout form #order_review .woocommerce-checkout-review-order-table td,
+  .woocommerce-checkout form #order_review .woocommerce-checkout-review-order-table th,
+  .woocommerce-checkout form #order_review .woocommerce-checkout-review-order-table li label {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  .woocommerce .woocommerce-message .button {
+    display: block;
+    width: 100%;
+  }
+}

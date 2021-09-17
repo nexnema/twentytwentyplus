@@ -1,0 +1,222 @@
+@font-face {
+    font-family: 'Yekan';
+    src: url('https://cdn.cleveraj.net/fonts/WebYekan.eot');
+    src: url('https://cdn.cleveraj.net/fonts/WebYekan.eot?#iefix') format('embedded-opentype'),
+         url('https://cdn.cleveraj.net/fonts/WebYekan.woff') format('woff'),
+         url('https://cdn.cleveraj.net/fonts/WebYekan.ttf') format('truetype'),
+         url('https://cdn.cleveraj.net/fonts/WebYekan.svg#WebYekan') format('svg');
+}
+
+/* Site */
+* {
+    font-family: 'Yekan', Arial !important;
+}
+.site-description{
+    display: block;
+}
+.woocommerce-breadcrumb {
+    margin-bottom: 2.5rem;
+}
+.page-title {
+    font-size: 5rem;
+    margin-top: 0;
+}
+@media (min-width: 700px) {
+	h1 {
+		font-size: 4rem;
+	}
+	h2 {
+		font-size: 3rem;
+	}
+    h2.entry-title {
+        font-size: 3rem;
+    }
+}
+a, a:hover, a:focus {
+    text-decoration: none!important;
+}
+button:hover {
+    text-decoration: none!important;
+    opacity: 0.5;
+}
+p,li {
+    font-size: 18px;
+    text-align: justify;
+}
+h2 {
+    text-align: justify;
+}
+fieldset {
+    border-radius: 10px;
+}
+.entry-content > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.is-style-wide) {
+    max-width: 100rem;
+}
+.button {
+    border-radius: 10px;
+    padding: 0.6em 1em;
+    line-height: 24px;
+    border: 0.1rem solid #00000000;
+}
+.woocommerce-message {
+    border-radius: 10px;
+}
+button.toggle:focus {
+    outline: 0;
+}
+button.toggle .toggle-text {
+    display: none;
+}
+/* Google chrome outline */
+textarea:focus, input:focus {
+    outline: none;
+}
+textarea {
+    min-width: 100px;
+    min-height: 150px;
+    max-height: 200px;
+}
+/* Google chrome outline */
+/* Site */
+.onsale{
+    margin: 5px 5px;
+    border-radius: 10px;
+    padding: 0.6em 1em;
+}
+img{
+    border-radius: 5px;
+}
+input {
+    border-radius: 10px!important;
+    padding-bottom: 15px;
+}
+.single-product .single_add_to_cart_button {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.sitemain {
+    text-decoration: none!important;
+}
+div.pswp__bg {
+    opacity: 0.9!important;
+}
+a.button {
+    display: block;
+}
+a.button:hover, a.button:visited{
+    text-decoration: none!important;
+}
+.entry-content {
+    width: auto;
+    text-align: right;
+}
+span {
+    text-decoration: none!important;
+}
+
+
+
+
+
+.entry-title {
+    text-align: center;
+}
+
+.comment_container img{
+    float: right!important;
+    margin-left: 15px;
+    margin-top: 8px;
+}
+.woocommerce-product-attributes-item__label{
+    text-align: right;
+}
+.woocommerce-loop-product__title{
+    font-size: 17px!important;
+    font-weight: normal!important;
+}
+
+.woocommerce-LoopProduct-link del, .woocommerce-LoopProduct-link ins {
+    width: 100%;
+    text-align: center;
+}
+.status-publish ins {
+    text-decoration: none;
+}
+.status-publish ins {
+    font-size: 20px;
+}
+.product_title{
+    font-weight: normal!important;
+    font-size: 28px!important;
+    text-align: right;
+}
+.woocommerce-Price-currencySymbol{
+    border: none;
+    text-decoration: none!important;
+    font-weight: normal!important;
+}
+.woocommerce-Reviews-title{
+    font-size: 3rem!important;
+}
+#comment {
+    border-radius: 15px;
+}
+.woocommerce-Tabs-panel > h2,
+.woocommerce-Tabs-panel #comments > h2 {
+    display: none;
+}
+/* Zoom Button ( icon ) */
+.woocommerce-product-gallery__trigger {
+    display: none;
+}
+/* Zoom Button ( icon ) */
+.comment-text{
+    border-bottom: 1px solid #f0f0f0;
+    border-radius: 10px;
+}
+.comment-form-rating lable{
+    float: right!important;
+}
+.submit:hover {
+    text-decoration: none!important;
+    opacity: 0.5;
+}
+.woocommerce-review-link {
+    text-decoration: none!important;
+}
+/* Selector Input */
+.orderby {
+    border: none;
+    background: #f7f7f7;
+    padding: 5px 5px 5px;
+    border-radius: 15px;
+}
+.orderby:hover {
+    background: #efefef;
+}
+/* Selector Input */
+.product_type_simple:hover{
+    opacity: 0.5;
+}
+.woocommerce-breadcrumb a {
+    text-decoration: none;
+}
+/* comment Submit button */
+#submit:focus{
+    text-decoration: none!important;
+}
+@media (max-width: 500px){
+    .site-description {
+        font-size: 13px;
+    }
+}
+.woocommerce form .form-row-last, .woocommerce-page form .form-row-last {
+    float: none;
+}
+
+.woocommerce-page .woocommerce-message .button {
+   display: none;
+}
+.cart_totals .woocommerce-shipping-destination {
+   display: none;
+}

@@ -1,0 +1,36 @@
+/*  NEWS PAGE  */
+.featured-media .featured-media-inner img {
+    width: 100%;
+    max-width: 750px;
+}
+.entry-header-inner .post-meta-wrapper {
+    margin-top: 30px;
+    margin-bottom: -20px;
+}
+.post-separator {
+    margin-top: 20px!important;
+}
+.pagination-wrapper hr {
+    margin-bottom: 20px;
+}
+.pagination-wrapper .pagination .nav-links {
+    margin-bottom: 2rem;
+    text-align: center;
+    display: block;
+}
+.pagination .nav-link {
+    margin: 0;
+}
+.page-numbers .nav-prev-text, .page-numbers .nav-next-text, .page-numbers span{
+    display: none;
+}
+.nav-links .page-numbers {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+@media (min-width: 700px) {
+    .pagination .nav-links {
+        margin: auto;
+    }
+}
+

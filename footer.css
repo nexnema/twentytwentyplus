@@ -1,0 +1,40 @@
+.footer-top-visible .footer-nav-widgets-wrapper {
+    margin: 0;
+    box-shadow: 0 0 5px #c3c3c3;
+}
+.footer-top-visible .footer-nav-widgets-wrapper .footer-inner .footer-top,
+.footer-top-visible .footer-nav-widgets-wrapper .footer-inner .footer-widgets-outer-wrapper {
+    padding: 25px;
+}
+.footer-top-visible .footer-nav-widgets-wrapper .footer-inner .footer-widgets-outer-wrapper h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+#site-footer {
+    padding: 0;
+}
+#site-footer * {
+    line-height: 100px;
+}
+
+#site-footer .powered-by-wordpress {
+    font-size: 14px;
+}
+#site-footer .footer-copyright,
+#site-footer .to-the-top > span {
+    font-size: 0;
+}
+#site-footer .footer-copyright a,
+#site-footer .to-the-top > span > span {
+    font-size: 18px;
+    color: #000;
+}
+
+
+

@@ -1,0 +1,60 @@
+.cover-header {
+    box-shadow: 0 0 15px #000;
+}
+.comment-respond .comment-reply-title {
+    font-size: 25px;
+}
+.post-meta-edit-link-wrapper{
+    display: none;
+}
+.pagination-single {
+    display: none;
+}
+body.single-post .featured-media,
+body.single-post .post-inner,
+body.woocommerce-page .post-inner {
+    background: #fff;
+}
+body.single-post .post .post-inner {
+    box-shadow: 0 0 5px #a2a2a2;
+}
+.comments-wrapper {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.logged-in-as {
+    display: none;
+}
+.comment-reply-link {
+    background: none;
+    color: #000;
+}
+body.single-post .post .comment-form-cookies-consent {
+    display: none;
+}
+.comment .comment {
+    padding-right: 10%;
+}
+.comment-footer-meta {
+    margin-top: 0;
+}
+.comment-meta {
+    margin-bottom: 5px;
+}
+@media (min-width: 700px){
+        .singular .entry-header {
+            padding: 3rem 0;
+        }
+}
+/* comment title */
+@media (min-width: 1220px){
+    .comment-reply-title {
+        font-size: 3rem;
+    }
+}
+/* comment title */
+#site-content .post-inner,
+.woocommerce-account #site-content .post-inner {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}

@@ -1,0 +1,7 @@
+.search-form .search-field, .search-form .search-submit {
+    margin: 0 4px 50px;
+}
+.archive-subtitle p:last-child {
+    text-align: center;
+    margin-top: 30px;
+}
