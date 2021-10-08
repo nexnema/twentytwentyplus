@@ -2,6 +2,9 @@
     margin: 0;
     box-shadow: 0 0 5px #565656;
 }
+.footer-nav-widgets-wrapper {
+    background-color: #fff;
+}
 .footer-top-visible .footer-nav-widgets-wrapper .footer-inner .footer-top,
 .footer-top-visible .footer-nav-widgets-wrapper .footer-inner .footer-widgets-outer-wrapper {
     padding: 25px;
