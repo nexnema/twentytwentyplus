@@ -5,6 +5,9 @@
 .footer-nav-widgets-wrapper {
     background-color: #fff;
 }
+.footer-top {
+    border-color: #e7e7e7;
+}
 .footer-top-visible .footer-nav-widgets-wrapper .footer-inner .footer-top,
 .footer-top-visible .footer-nav-widgets-wrapper .footer-inner .footer-widgets-outer-wrapper {
     padding: 25px;
