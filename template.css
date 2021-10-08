@@ -118,6 +118,9 @@ span {
 
 
 
+body.custom-background {
+    background-color: #ffffff;
+}
 .entry-title {
     text-align: center;
 }
