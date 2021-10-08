@@ -17,7 +17,7 @@
 body.single-post .featured-media,
 body.single-post .post-inner,
 body.woocommerce-page .post-inner {
-    background: #fff;
+    background: #fff0;
 }
 body.single-post .post .post-inner {
     box-shadow: 0 0 5px #a2a2a2;
