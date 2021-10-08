@@ -8,6 +8,9 @@
 .footer-top {
     border-color: #e7e7e7;
 }
+.footer-widgets-wrapper {
+    font-size: 12px;
+}
 .footer-top-visible .footer-nav-widgets-wrapper .footer-inner .footer-top,
 .footer-top-visible .footer-nav-widgets-wrapper .footer-inner .footer-widgets-outer-wrapper {
     padding: 25px;
